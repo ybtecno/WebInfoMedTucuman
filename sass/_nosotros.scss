@@ -1,0 +1,117 @@
+/* Nosotros
+  --------------------------------*/
+  #about {
+    padding: 40px 0;
+    overflow: hidden;
+  }
+  
+  #about .about-img {
+    height: 510px;
+    overflow: hidden;
+  }
+  
+  #about .about-img img {
+    margin-left: -15px;
+    max-width: 100%;
+  }
+  
+  @media (max-width: 768px) {
+    #about .about-img {
+      height: auto;
+    }
+    #about .about-img img {
+      margin-left: 0;
+      padding-bottom: 30px;
+    }
+  }
+  
+  #about .content .h2 {
+    color: #333;
+    font-weight: 300;
+    font-size: 24px;
+  }
+
+  #about .h2color span {
+    color: #1dc8cd;
+
+  }
+  
+  #about .content h3 {
+    color: #777;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    font-style: italic;
+    text-align: center;
+  }
+  
+  #about .content p {
+    line-height: 26px;
+  }
+  
+  #about .content p:last-child {
+    margin-bottom: 0;
+  }
+
+  #about .content .valores-empresa {
+    width: 100%;
+  }
+  #about .container-fluid .programa .contenido-programa .contenedor 
+  .programa-evento .content p span{
+    color: #1dc8cd;
+  }
+  
+  #about .content i {
+    font-size: 20px;
+    padding-right: 4px;
+    color: #1dc8cd;
+  }
+  
+  #about .content ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #about .content ul li {
+    padding-bottom: 10px;
+  }
+
+/* ==========================================================================
+   Talleres
+   ========================================================================== */
+section.programa {
+    position: relative;
+}
+div.contenedor-video {
+    max-width: 100%;
+    overflow: hidden;
+}
+div.contenido-programa {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+div.programa-evento {
+    background-color: #eff5f5;
+    padding: 15px;
+    margin-top: 100px;   
+}
+@media only screen and (min-width: 768px) {
+  .contenido-programa .contenedor {
+    width: 95%;
+  }
+  div.programa-evento {
+      width: 95%;
+  }
+}
+@media only screen and (min-width: 992px) {
+    div.programa-evento {
+        width: 55%;
+    }
+}
+
+
+
+

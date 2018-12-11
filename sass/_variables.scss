@@ -1,0 +1,152 @@
+/*--------------------------------------------------------------
+  # Variables
+  --------------------------------------------------------------*/
+// Generales
+/** Colores **/
+$colorPrimario: #1dc8cd;
+$colorSecundario: black;
+$colorFondo: white;
+$colorTexto: #666666;
+/** Fuentes **/
+$fuentes: "Open Sans", sans-serif, Comic;
+
+/*====================================================*/
+
+// Boton Flotante
+/** Colores **/
+$fondoDegradeBtnFlotante: linear-gradient(45deg, #1de099, #1dc8cd);
+$colorBtnFlotante: white;
+$fondoHoverBtnFlotante: #1dc8cd;
+$colorBtnFlotante: white;
+
+/*====================================================*/
+
+// Footer
+/** Colores **/
+$colorFondoFooter: #353535;
+$colorTextoFooter: white;
+$colorTextoFooter_a: #1dc8cd;
+$colorFondoFooterCopy: #2e2e2e;
+
+/*====================================================*/
+
+// Frase Ford
+/** Colores **/
+$fondoDegradeFraseFord: linear-gradient(rgba(29, 200, 205, 0.65), rgba(29, 205, 89, 0.2));
+$colorTextoFord: white;
+$colorFondoBtnFord: #1dc8cd;
+$colorBorderBtnFord: #1dc8cd;
+
+/*====================================================*/
+
+// Galeria
+/** Colores **/
+$colorFondoGaleria: white;
+$colorFondoGaleriaOverlay: rgba(0, 0, 0, 0.7);
+
+/*====================================================*/
+
+// Header
+/** Colores **/
+$colorTextoHeader_H1Hover: white;
+$colorFondoHeader_Fixed: linear-gradient(45deg, rgba(193, 195, 194, 0.8), rgba(4, 127, 131, 0.8));
+
+/*====================================================*/
+
+// Nav Menu
+/** Colores **/
+$colorTextoNav: white;
+$colorFondoNav_ul: white;
+$colorTextoNav_ul_li_a: #333;
+$colorTextoNav_ul_li_aHover: #1dc8cd;
+$colorTextoNav_toggle_i: white;
+$colorFondoNavMobile: rgba(52, 59, 64, 0.9);
+
+/*====================================================*/
+
+// Nosotros
+/** Colores **/
+$colorTextoNosotros_H2: #333;
+$colorTextoNosotros_H2Span: #1dc8cd;
+$colorTextoNosotros_H3: #777;
+$colorTextoNosotros_content_i: #1dc8cd;
+$colorFondoNosotros_evento: #eff5f5;
+
+/*====================================================*/
+
+// Nuestros Servicios
+/** Colores **/
+$colorFondoNS: white;
+$colorTextoNS_i: #666666;
+$colorFondoNS_i_b:linear-gradient(45deg, #1dc8cd 0%, #55fabe 100%);
+$colorFondoNS_i_b:linear-gradient(45deg, #1dc8cd 0%, #55fabe 100%);
+
+/*====================================================*/
+
+// Nuestros Servicios Avanzados
+/** Colores **/
+$colorTextoNSA: #27b4b2;
+$colorTextoNSA_H3: #999;
+$colorTextoNSA_p: #777;
+$colorTextoNSA_i: #666666;
+$colorFondoNSA_i_b: linear-gradient(45deg, #1dc8cd 0%, #55fabe 100%);
+$colorTextoNSA_i: #666666;
+$colorFondoNSA: #1dc8cd;
+
+/** Fuentes **/
+$fuentesEstiloNSA: italic;
+
+/*====================================================*/
+
+// Politicas Privacidad
+/** Colores **/
+$colorTextoPP_H4: #1dc8cd;
+$colorTextoPP_IntroP: white;
+
+/*====================================================*/
+
+// Seccion Clientes
+/** Colores **/
+$colorFondoClientes: white;
+
+/*====================================================*/
+
+// Seccion Contacto
+/** Colores **/
+$colorTextoContacto: #1dc8cd;
+$colorTextoContacto_p: #888;
+$colorTextoContacto_a: #1dc8cd;
+$colorFondoContacto_a: white;
+$colorTextoContacto_aHover: white;
+$colorFondoContacto_aHover: #1dc8cd;
+$colorTextoContacto_info: #333333;
+$colorTextoContacto_info_i: #1dc8cd;
+$colorTextoContacto_form: #1dc8cd;
+$colorTextoContacto_formError: red;
+$colorTextoContacto_formValidation: red;
+$colorFondoContacto_formButton: #1dc8cd;
+
+/*====================================================*/
+
+// Seccion HEader
+/** Colores **/
+$colorTextoS_Header: #1dc8cd;
+$colorTextoS_HeaderDesc: #777;
+$colorFondoS_HeaderDivider: #1dc8cd;
+$colorFondoS_HeaderDivider2: linear-gradient(0deg, #1dc8cd 0%, #55fabe 100%);
+$colorFondoS_HeaderBg: #eff5f5;
+
+/*====================================================*/
+
+// Seccion Intro
+/** Colores **/
+$colorTextIntro_H2: white;
+$colorTextIntro_p: white;
+$colorTextIntro_BtnHover: #1dc8cd;
+
+/*====================================================*/
+
+// Terminos Uso
+/** Colores **/
+$colorTextTerminosMain: #1dc8cd;
+$colorTextTerminosIntro_p: white;

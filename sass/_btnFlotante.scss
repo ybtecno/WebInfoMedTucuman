@@ -1,0 +1,24 @@
+/* Back to top button */
+.back-to-top {
+    position: fixed;
+    display: none;
+    background: linear-gradient(45deg, #1de099, #1dc8cd);
+    color: white;
+    padding: 2px 20px 8px 20px;
+    font-size: 16px;
+    border-radius: 4px 4px 0 0;
+    right: 15px;
+    bottom: 0;
+    transition: none;
+  }
+  
+  .back-to-top:focus {
+    background: linear-gradient(45deg, #1de099, #1dc8cd);
+    color: white;
+    outline: none;
+  }
+  
+  .back-to-top:hover {
+    background: #1dc8cd;
+    color: white;
+  }

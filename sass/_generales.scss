@@ -1,0 +1,32 @@
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+body {
+    background: white;
+    color: #666666;
+    font-family: 'Oswald', sans-serif, Comic;
+    overflow-x: hidden;
+  }
+  
+  a {
+    color: #1dc8cd;
+    transition: 0.3s;
+  }
+  
+  a:hover, a:active, a:focus {
+    color: #1dc9ce;
+    outline: none;
+    text-decoration: none;
+  }
+  
+  p {
+    padding: 0;
+    margin: 0 0 30px 0;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Oswald', sans-serif, Comic;
+    font-weight: 400;
+    margin: 0 0 20px 0;
+    padding: 0;
+  }

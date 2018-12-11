@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>Contacto</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="" name="description">
+        
+        <!-- Favicons -->
+        <link href="img/favicon.png" rel="icon">
+        <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+        
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700|Open+Sans:300,300i,400,400i,700,700i" rel="stylesheet">
+        
+        <!-- Bootstrap CSS File -->
+        <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        
+            <!-- Libraries CSS Files -->
+            <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+            <link href="lib/animate/animate.min.css" rel="stylesheet">
+            <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+            <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+            <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        
+        <!-- Main Stylesheet File -->
+        <link href="sass/estilos.css" rel="stylesheet">
+        <link href="send.php" rel="stylesheet">
+        
+    </head>
+    
+<body>
+
+        <!--<form action="send.php" method="post" name="contacto" id ="contacto" > 
+
+            Nombre completo <input name="nombre" type="text" id="nombre completo"size="30" maxlength="100"> 
+            <br> 
+            <br> 
+            Correo electronico <input name="email" type="text" onBlur="MM_validateForm('email','','NisEmail');return document.MM_returnValue" size="25" maxlength="100" > 
+            <br> 
+            <br> 
+            Población <input name="poblacion" type="text" onBlur="MM_validateForm('poblacion','','R');return document.MM_returnValue" size="20" maxlength="60"> 
+            <br> 
+            <br> 
+            Sexo 
+            <br> 
+            <br> 
+            <input type="radio" name="GrupoOpciones1" value="1"id="GrupoOpciones1_0" /> 
+            Hombre 
+            <br> 
+            <input type="radio" name="GrupoOpciones1" value="2"id="GrupoOpciones1_1"/> Mujer 
+            <br> 
+            <br> 
+            Aficiones 
+            <br> 
+            
+            <textarea cols="50" rows="5" name="comentarios"></textarea> 
+            <br> 
+            <br> 
+            Que opina de nuestra pagina 
+            <br> 
+            <br> 
+            <input type="radio" name="GrupoOpciones2" value="mucho" >me ha gustado mucho 
+            <br> 
+            <input type="radio" name="GrupoOpciones2" value="regular" >no esta mal 
+            <br> 
+            <input type="radio" name="GrupoOpciones2" value="mal" >no me ha gustado nada 
+            <br> 
+            <br> 
+            Danos tu opinion 
+            <br> 
+            <textarea cols="50" rows="5" name="opinion"></textarea> 
+            <br> 
+            <br> 
+            <input type="submit" value="Enviar formulario"> 
+            <input type="Reset" value="Borrar datos"> 
+            
+        </form>--> 
+                
+    
+    <!-- <form action="" name="formulario" id="formulario">
+        <input type="text" name="nombre" placeholder="nombre">
+
+        <input type="radio" name="sexo" id="hombre">
+        <label for="hombre">Hombre</label>
+
+        <input type="radio" name="sexo" id="mujer">
+        <label for="mujer">Mujer</label>
+
+        <input type="checkbox" name="terminos" id="terminos">
+        <label for="terminos">Terminos</label>
+
+        <input type="submit" value="Enviar">
+    </form> -->
+
+
+    <div class="contenedor">
+        <form action="" class="formulario" id="formulario" name="formulario">
+            <div class="contenedor-inputs">
+                <input type="text" name="nombre" placeholder="Nombre">
+
+                <input type="text" name="correo" placeholder="Correo">
+
+                <div class="sexo">
+                    <input type="radio" name="sexo" id="hombre" value="hombre">
+                    <label class="label-radio hombre" for="hombre">Hombre</label>
+                    <input type="radio" name="sexo" id="mujer" value="mujer">
+                    <label class="label-radio mujer" for="mujer">Mujer</label>
+
+                </div>
+
+                <div class="terminos">
+                    <input type="checkbox" name="terminos" id="terminos">
+                    <label for="terminos">Acepto términos y condiciones</label>
+                </div>
+
+                <ul class="error"></ul>
+            </div>
+
+            <input type="submit" class="btn" value="Registrate">
+        </form>
+    </div>
+
+    <!--<script>
+        (function() {
+            var formulario = document.getElementById('formulario'),
+                nombre = formulario.nombre,
+                correo = formulario.correo,
+                sexo = formulario.sexo,
+                terminos = formulario.terminos,
+                error = document.getElementById('error');
+
+            function validarNombre(e) {
+                if(nombre.value == '' || nombre.value == null) {
+                    console.log('Por favor completa el nombre');
+                    error.style.display = 'block';
+                    error.innerHTML += '<li>Por favor completa el nombre</li>';
+
+                    e.preventDefault();
+                    
+                }   else {
+                        error.style.display = 'none';
+                    }
+            }
+
+            function validarCorreo(e){
+                if(correo.value == '' || nombre.value == null) {
+                    console.log('Por favor completa el correo');
+                    error.style.display = 'block';
+                    error.innerHTML += '<li>Por favor completa el correo</li>';
+
+                    e.preventDefault();
+                }else {
+                    error.style.display = 'none';
+                }
+            }
+
+            function validarSexo(e) {
+                if(sexo.value == '' || sexo.value == null) {
+                    console.log('Por favor completa el sexo');
+                    error.style.display = 'block';
+                    error.innerHTML += '<li>Por favor completa el sexo</li>';
+
+                    e.preventDefault();
+            }   else {
+                    error.style.display = 'none';
+                }
+            }
+
+            function validarTerminos(e) {
+                if(terminos.checked == '' || terminos.checked == null) {
+                    console.log('Por favor acepta los términos');
+                    error.style.display = 'block';
+                    error.innerHTML += '<li>Por favor acepta los términos</li>';
+
+                    e.preventDefault();
+            }   else {
+                    error.style.display = 'none';
+                }
+            }
+            
+            function validarFormulario(e) {
+                validarNombre(e);
+                validarCorreo(e);
+                validarSexo(e);
+                validarTerminos(e);
+            }           
+
+
+            formulario.addEventListener('submit', validarNombre);
+        }())
+    </script>-->
+      
+    <!--<script>
+        var formulario = document.getElementById("formulario");
+        var nombre = formulario.nombre;
+        var sexo = formulario.sexo;
+        var terminos = formulario.terminos;
+
+        function validar(e) {
+            if (nombre.value > 18) {
+                //Validamos el nombre
+                alert ("Máximo de caracteres permitidos");
+            }else if (nombre.value == "") {
+                alert("Por favor ingresá un nombre");
+            }
+
+            //Validamos los radio button
+            if (sexo[0].checked == false && sexo[1].checked == false) {
+                alert ("Por favor ingresa el sexo")
+            }
+
+            //Validamos los terminos y condiciones
+            if (terminos.checked == false) {
+                alert ("Acepta los términos");
+
+            }
+
+            //Evitamos que se envíe el formulario
+            e.preventDefault();
+        }
+
+        formulario.addEventListener("submit", validar);
+
+    </script>-->
+    
+    <!-- JavaScript Libraries -->
+    <!-- 
+  <script src="../lib/jquery/jquery.min.js"></script>
+  <script src="../lib/jquery/jquery-migrate.min.js"></script>
+  <script src="../lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../lib/easing/easing.min.js"></script>
+  <script src="../lib/superfish/hoverIntent.js"></script>
+  <script src="../lib/superfish/superfish.min.js"></script>
+  <script src="../lib/wow/wow.min.js"></script>
+  <script src="../lib/waypoints/waypoints.min.js"></script>
+  <script src="../lib/counterup/counterup.min.js"></script>
+  <script src="../lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="../lib/isotope/isotope.pkgd.min.js"></script>
+  <script src="../lib/lightbox/js/lightbox.min.js"></script>
+  <script src="../lib/touchSwipe/jquery.touchSwipe.min.js"></script> -->
+
+  <!-- Contact Form JavaScript File -->
+  <!-- 
+  <script src="../contactform/contactform.js"></script> -->
+
+  <!-- Template Main Javascript File -->
+  <!-- 
+  <script src="../js/main.js"></script>
+  <script src="../js/jquery-3.3.1.slim.min.js"></script>
+  <script src="../js/popper.min.js"></script>
+  <script src="../js/bootstrap.min.js"></script> -->
+</body>
+</html>

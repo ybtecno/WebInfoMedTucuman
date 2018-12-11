@@ -1,0 +1,64 @@
+/*--------------------------------------------------------------
+  # Politicas Privacidad
+  --------------------------------------------------------------*/
+  #introPP {
+    width: 100%;
+    height: 50vh;
+    background: url("../img/fondo/fondo6.jpg") center top no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  #main h4 {
+    font-weight: bold;
+    color: #1dc8cd;
+  }
+  
+  @media (min-width: 1024px) {
+    #introPP {
+      background-attachment: fixed;
+    }
+  }
+  
+  #introPP .intro-text {
+    position: absolute;
+    left: 0;
+    top: 60px;
+    right: 0;
+    height: calc(50% - 60px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+  }
+  
+  #introPP img {
+    margin: 150px 0 10px 0;
+    padding: 15px;
+    line-height: 56px;
+    width: 55%;
+  }
+  
+  @media (max-width: 768px) {
+    #introPP h2 {
+      font-size: 28px;
+      line-height: 36px;
+    }
+  }
+  
+  #introPP p {
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    margin-bottom: 20px;
+    padding: 0 15px;
+    font-size: 24px;
+  }
+  
+  @media (max-width: 768px) {
+    #introPP p {
+      font-size: 18px;
+      line-height: 24px;
+      margin-bottom: 20px;
+    }
+  }

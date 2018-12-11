@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Infomed Tucumán</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <link rel="manifest" href="site.webmanifest">
+
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700|Open+Sans:300,300i,400,400i,700,700i" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Libraries CSS Files -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/all.css">
+
+
+    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald|PT+Sans" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="sass/estilos.css" rel="stylesheet">
+
+  <!-- Mapa-->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css" />
+
+</head>
+
+<body>
+
+  <!--==========================
+    Header
+  ============================-->
+  <header id="header">
+    <div class="container-fluid">
+
+      <!--==========================
+      Nav
+      ============================-->
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li class="menu-active">
+            <a href="#intro">Inicio</a>
+          </li>
+          <li class="menu-has-children">
+            <a href="#features">Servicios</a>
+              <ul>
+                <li>
+                  <a href="#desarrolloweb">Cartilla Médica</a>
+                </li>
+                <li>
+                  <a href="#desarrollomobil">Especialidades</a>
+                </li>
+                <li>
+                  <a href="#soportetecnico">Clínicas - Sanatorios</a>
+                </li>
+                <li>
+                  <a href="#ventaequipos">Laboratorios - Análisis Clínicos</a>
+                </li>
+                <li>
+                  <a href="#ventaequipos">Ópticas - Ortopedias</a>
+                </li>
+                <li>
+                  <a href="#ventaequipos">Farmacias</a>
+                </li>
+                <li>
+                  <a href="#ventaequipos">Prepagas - O.Sociales</a>
+                </li>
+              </ul>
+          </li>
+          <li>
+            <a href="#about">Nosotros</a>
+          </li>
+          <li>
+            <a href="#contact">Contacto</a>
+          </li>
+        </ul>
+      </nav><!-- #nav-menu-container -->
+    </div>
+  </header><!-- #header -->
+
+  <!--==========================
+    Intro Section
+  ============================-->
+  <section id="intro">
+
+    <div class="intro-text">
+      <img src="img/logo/logoinfomedcabecera.png" alt="">
+      <p class="slogan">Toda la información médica de Tucumán en un solo lugar.</p>
+      <!-- <a href="#about" class="btn-get-started scrollto">Ingresa</a> -->
+    </div>
+
+    <!-- <div class="product-screens"> 
+        <img class="wow fadeInUp" data-wow-delay="0.4s" data-wow-duration="0.6s" src="img/logo/02.png" alt="">
+    </div>-->
+
+  </section><!-- #intro -->
+
+  <main id="main">
+
+    <!--==========================
+      Nosotros
+    ============================-->
+    <section id="about" class="section-bg">
+      <div class="container-fluid">
+        <div class="section-header">
+          <h3 class="section-title">Acerca Nuestro</h3>
+          <span class="section-divider"></span>
+          <p class="section-description">
+            InfoMed Tucumán. <br>
+           te acerca toda la información médica de la provincia de Tucumán,<br>
+           en forma totalmente gratutita.
+          </p>
+        </div>
+      </div>
+    </section><!-- #about -->
+
+    <!--==========================
+      Nuestros Servicios
+    ============================-->
+    <section id="features" class="section-bg">
+        <div class="container-fluid">
+          <div class="section-header">
+            <h3 class="section-title">Nuestros Servicios</h3>
+            <span class="section-divider"></span>
+          </div>
+        </div>
+      </section>
+
+    <section id="features" class="invitados contenedor seccion">  
+      <ul class="lista-invitados clearfix">
+        <li>
+          <div class="invitado">
+            <img src="img/servicios/medicos.png" alt="imagen invitado">
+            <p>Cartilla Médica </p>
+          </div>
+        </li>
+  
+        <li>
+          <div class="invitado">
+            <img src="img/servicios/especialidades.png" alt="imagen invitado">
+            <p>Especialidades </p>
+          </div>
+        </li>
+  
+        <li>
+          <div class="invitado">
+            <img src="img/servicios/clinicas.png" alt="imagen invitado">
+            <p>Clínicas - Sanatorios </p>
+          </div>
+        </li>
+  
+        <li>
+          <div class="invitado">
+            <img src="img/servicios/laboratorios.jpg" alt="imagen invitado">
+            <p>Laboratorios - Análisis Clínicos </p>
+          </div>
+        </li>
+  
+        <li>
+          <div class="invitado">
+            <img src="img/servicios/ortopedias.jpg" alt="imagen invitado">
+            <p>Ópticas - Ortopedias </p>
+          </div>
+        </li>
+  
+        <li>
+          <div class="invitado">
+            <img src="img/servicios/farmacias.gif" alt="imagen invitado">
+            <p>Farmacias </p>
+          </div>
+        </li>
+      </ul>
+    </section> <!-- Nuestros Servicios -->
+
+    <!--==========================
+      Contador
+    ============================-->
+
+    <div class="contador parallax">
+        <div class="contador">
+          <ul class="resumen-evento clearfix">
+            <li><p class="numero"></p>Médicos</li>
+            <li><p class="numero"></p>Laboratorios</li>
+            <li><p class="numero"></p>Farmacias</li>
+            <li><p class="numero"></p>Ópticas y Ortopedias</li>
+          </ul>
+        </div>
+      </div><!-- contador -->
+
+    <!--==========================
+      Seccion Contacto
+    ============================-->
+    <section id="contact">
+      <div class="container">
+        <div class="row wow fadeInUp">
+
+          <div class="col-lg-4 col-md-4">
+            <div class="contact-about">
+              <h3>InfoMed Tucumán</h3>
+              <p>Nos podés contactar o seguir por nuestras redes sociales.</p>
+              <div class="social-links">
+                <a href="https://twitter.com/YBTecno" target="_blank" class="twitter"><i class="fa fa-twitter"></i></a>
+                <a href="https://www.facebook.com/YBTecno-1567154450210688/" target="_blank" class="facebook"><i class="fa fa-facebook"></i></a>
+                <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+                <a href="https://plus.google.com/u/0/104692326831525869610" target="_blank" class="google-plus"><i class="fa fa-google-plus"></i></a>
+                <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="info">
+              <div>
+                <i class="ion-ios-location-outline"></i>
+                <p>Yerba Buena<br>Tucumán, Argentina</p>
+              </div>
+
+              <div>
+                <i class="ion-ios-email-outline"></i>
+                <p>infomedtuc@gmail.com</p>
+              </div>
+
+              <div>
+                <i class="ion-ios-telephone-outline"></i>
+                <p>+54 3816807500</p>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-lg-5 col-md-8">
+            <div class="form">
+              <div id="sendmessage">Su mensaje fue enviado.</div>
+              <div id="errormessage"></div>
+              <form action="" method="post" role="form" class="contactForm">
+                <div class="form-row">
+                  <div class="form-group col-lg-6">
+                    <input type="text" name="name" class="form-control" id="name" placeholder="Su nombre" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                    <div class="validation"></div>
+                  </div>
+                  <div class="form-group col-lg-6">
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Su correo" data-rule="email" data-msg="Please enter a valid email" />
+                    <div class="validation"></div>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Asunto" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                  <div class="validation"></div>
+                </div>
+                <div class="form-group">
+                  <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Mensaje"></textarea>
+                  <div class="validation"></div>
+                </div>
+                <div class="text-center"><button type="submit" title="Send Message">Enviar Mensaje</button></div>
+              </form>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- #contact -->
+
+  </main>
+
+  <!--==========================
+    Footer
+  ============================-->
+  <footer id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 text-lg-left text-center">
+          <div class="copyright">
+            &copy; Copyright Todos los derechos reservados.
+          </div>
+          
+        </div>
+        <div class="col-lg-6">
+          <nav class="footer-links text-lg-right text-center pt-2 pt-lg-0">
+            <a href="#intro" class="scrollto">Inicio</a>
+            <a href="#about" class="scrollto">Nosotros</a>
+            <a href="html/politicasPrivacidad.html">Políticas Privacidad</a>
+            <a href="html/terminosUso.html">Términos de uso</a>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <div class="credits"></div>
+    <p class="copyright"> 
+            Desarrollado por <a href="#intro" class="btn-get-started scrollto">YBTecno</a>
+    </p>
+  </div>
+  </footer><!-- #footer -->
+
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+  <!-- JavaScript Libraries -->
+  <script src="js/vendor/modernizr-3.6.0.min.js"></script>
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/superfish/hoverIntent.js"></script>
+  <script src="lib/superfish/superfish.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/waypoints/waypoints.min.js"></script>
+  <script src="lib/counterup/counterup.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/isotope/isotope.pkgd.min.js"></script>
+  <script src="lib/lightbox/js/lightbox.min.js"></script>
+  <script src="lib/touchSwipe/jquery.touchSwipe.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
+
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/jquery.countdown.min.js"></script>
+  <script src="js/jquery.lettering.js"></script>
+  <script src="js/scripts.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"></script>
+  <script src="js/main.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+
+</body>
+</html>
