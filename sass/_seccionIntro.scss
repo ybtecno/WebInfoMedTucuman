@@ -27,6 +27,11 @@
     text-align: center;
     flex-direction: column;
   }
+  @media (max-width: 480px) {
+    #intro .intro-text {
+      top: 100px;
+    }
+  }
   
   #intro h2 {
     margin: 30px 0 10px 0;

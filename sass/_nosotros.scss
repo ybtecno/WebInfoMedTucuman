@@ -4,7 +4,6 @@
     padding: 40px 0;
     overflow: hidden;
   }
-  
   #about .about-img {
     height: 510px;
     overflow: hidden;
@@ -18,11 +17,10 @@
   @media (max-width: 768px) {
     #about .about-img {
       height: auto;
-      padding: 10px 0;
     }
     #about .about-img img {
       margin-left: 0;
-      padding-bottom: 10px;
+      padding-bottom: 30px;
     }
   }
   
