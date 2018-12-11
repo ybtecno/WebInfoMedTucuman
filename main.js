@@ -109,7 +109,7 @@ jQuery(document).ready(function($) {
   });
 
   // Gallery - uses the magnific popup jQuery plugin
-  $('.gallery-popup').magnificPopup({
+  /*$('.gallery-popup').magnificPopup({
     type: 'image',
     removalDelay: 300,
     mainClass: 'mfp-fade',
@@ -124,7 +124,7 @@ jQuery(document).ready(function($) {
         return openerElement.is('img') ? openerElement : openerElement.find('img');
       }
     }
-  });
+  });*/
 
   // custom code
 
@@ -138,7 +138,7 @@ jQuery(document).ready(function($) {
   document.addEventListener("DOMContentLoaded", function(){
 
       //Mapa
-      var map = L.map('mapa').setView([-26.812351, -65.300074], 17);
+      /*var map = L.map('mapa').setView([-26.812351, -65.300074], 17);
 
       L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
           attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
@@ -146,7 +146,7 @@ jQuery(document).ready(function($) {
 
       L.marker([-26.812351, -65.300074]).addTo(map)
           .bindPopup('<b>YBTecno</b>.<br> Un lugar toda la tecnología.')
-          .openPopup();
+          .openPopup();*/
   
   }); //DOM CONTENT LOADED
 })();
