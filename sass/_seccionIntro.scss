@@ -17,15 +17,16 @@
 
   #intro .intro-text {
     position: absolute;
-    left: 0;
-    top: 150px;
-    right: 0;
-    height: calc(50% - 60px);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    left: 50px;
+    top: 50px;
+    // right: 0;
+    // height: calc(50% - 60px);
+    // display: flex;
+    // align-items: center;
+    // justify-content: center;
     text-align: center;
-    flex-direction: column;
+    // flex-direction: column;
+    // display: block;
   }
   @media (max-width: 480px) {
     #intro .intro-text {
@@ -43,10 +44,11 @@
     font-weight: bold;
   }
   #intro img {
-    margin: 30px 0 10px 0;
+    margin: 0px 50px 10px 0;
     padding: 15px;
     line-height: 56px;
-    width: 60%;
+    width: 20%;
+    float: left;
   }
   
   @media (max-width: 320px) {
@@ -76,7 +78,8 @@
     font-size: 24px;
   }
   #intro .intro-text .slogan{
-    margin-top: 30px;
+    margin-top: 60px;
+    font-size: 30px;
   }
   
   @media (max-width: 768px) {
