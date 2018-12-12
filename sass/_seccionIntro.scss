@@ -8,17 +8,11 @@
     background-size: cover;
     position: relative;
   }
-  
-  @media (min-width: 1024px) {
-    #intro {
-      background-attachment: fixed;
-    }
-  }
 
   #intro .intro-text {
     position: absolute;
-    left: 50px;
-    top: 50px;
+    margin-left: 50px;
+    margin-top: 50px;
     // right: 0;
     // height: calc(50% - 60px);
     // display: flex;
@@ -27,11 +21,6 @@
     text-align: center;
     // flex-direction: column;
     // display: block;
-  }
-  @media (max-width: 480px) {
-    #intro .intro-text {
-      top: 100px;
-    }
   }
   
   #intro h2 {
@@ -47,27 +36,8 @@
     margin: 0px 50px 10px 0;
     padding: 15px;
     line-height: 56px;
-    width: 20%;
+    width: 25%;
     float: left;
-  }
-  
-  @media (max-width: 320px) {
-    #intro img {
-      width: 75%;
-    }
-  }
-
-  @media (max-width: 768px) {
-    #intro img {
-      width: 95%;
-    }
-  }
-  
-  @media (max-width: 768px) {
-    #intro h2 {
-      font-size: 28px;
-      line-height: 36px;
-    }
   }
   
   #intro p {
@@ -81,14 +51,15 @@
     margin-top: 60px;
     font-size: 30px;
   }
-  
-  @media (max-width: 768px) {
-    #intro p {
-      font-size: 18px;
-      line-height: 24px;
-      margin-bottom: 20px;
-    }
-  }
+
+  // @media (max-width: 768px) {
+  //   #intro .intro-text .slogan {
+  //     font-size: 18px;
+  //     line-height: 24px;
+  //     margin: 0;
+  //     padding: 0;
+  //   }
+  // }
   
   #intro .btn-get-started {
     font-family: "Open Sans", sans-serif;
@@ -143,13 +114,27 @@
     bottom: 0;
     top: 150px;
   }
-  
-  @media (max-width: 767px) {
-    #intro .product-screens .product-screen-1 {
-      position: static;
-      padding-top: 30px;
+
+  /*--------------------------------------------------------------
+  # Media Querys
+  --------------------------------------------------------------*/
+  @media (min-width: 320px) {
+    #intro .intro-text {
+      display: block;
+      width: 90%;
+      margin: 0 auto;
     }
-    #intro .product-screens .product-screen-2, #intro .product-screens .product-screen-3 {
-      display: none;
+    #intro img {
+      margin: 75px 30px 0 40px;
+      text-align: center;
+      width: 80%;
+      padding: 0;
+      line-height: 0;
+      float: none;
+    }
+    #intro .intro-text .slogan {
+      font-size: 16px;
+      margin-top: 20px;
     }
   }
+  
