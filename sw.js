@@ -10,6 +10,7 @@ var urlsToCache = [
     './img/ionicons_svg_md-checkmark-circle-outline.svg',
     './img/fondo/bg-resumen.jpg',
     './img//logo/logoinfomedcabecera.png',
+    './img//logo/logoinfomedtuc01.png',
     './img/servicios/clinicas.png',
     './img/servicios/especialidades.png',
     './img/servicios/farmacias.gif',
