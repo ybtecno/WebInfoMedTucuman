@@ -193,7 +193,7 @@ h1, h2, h3, h4, h5, h6 {
     margin: 50px 40px 10px 0;
     padding: 0;
     line-height: 56px;
-    width: 10%;
+    width: 25%;
     float: left; }
 
   #intro .intro-text .slogan {
@@ -210,10 +210,7 @@ h1, h2, h3, h4, h5, h6 {
     padding: 50px 0; }
 
   #features ul.lista-invitados li {
-    padding: 5px; }
-
-  #intro img {
-    width: 10%; } }
+    padding: 5px; } }
 @media (max-width: 575px) {
   #intro .intro-text {
     margin-left: 20px; }
@@ -236,10 +233,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 3em; }
 
   #features ul.lista-invitados li {
-    padding: 5px; }
-
-  #intro img {
-    width: 10%; } }
+    padding: 5px; } }
 @media (max-width: 320px) {
   #intro .intro-text .slogan {
     font-size: 15px; }
@@ -259,10 +253,7 @@ h1, h2, h3, h4, h5, h6 {
     margin: 20px 0; }
 
   #features ul.lista-invitados li {
-    padding: 2px; }
-
-  #intro img {
-    width: 10%; } }
+    padding: 2px; } }
 /*--------------------------------------------------------------
   # NavMenu
   --------------------------------------------------------------*/
