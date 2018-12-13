@@ -193,7 +193,7 @@ h1, h2, h3, h4, h5, h6 {
     margin: 50px 40px 10px 0;
     padding: 0;
     line-height: 56px;
-    width: 25%;
+    width: 10%;
     float: left; }
 
   #intro .intro-text .slogan {
@@ -1062,6 +1062,10 @@ p.copyright {
 body {
   background: #f2f2f2;
   font-size: 18px; }
+
+.contenedor {
+  /*width: 400px;
+  margin: 40px auto;*/ }
 
 .formulario .contenedor-inputs {
   padding: 20px;
