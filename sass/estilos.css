@@ -210,7 +210,10 @@ h1, h2, h3, h4, h5, h6 {
     padding: 50px 0; }
 
   #features ul.lista-invitados li {
-    padding: 5px; } }
+    padding: 5px; }
+
+  #intro img {
+    width: 10%; } }
 @media (max-width: 575px) {
   #intro .intro-text {
     margin-left: 20px; }
@@ -233,7 +236,10 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 3em; }
 
   #features ul.lista-invitados li {
-    padding: 5px; } }
+    padding: 5px; }
+
+  #intro img {
+    width: 10%; } }
 @media (max-width: 320px) {
   #intro .intro-text .slogan {
     font-size: 15px; }

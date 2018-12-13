@@ -144,6 +144,9 @@
     #features ul.lista-invitados li {
       padding: 5px;
     }
+    #intro img {
+      width: 10%;
+    }
   }
   @media (max-width: 575px) {
     #intro .intro-text {
@@ -168,6 +171,9 @@
     }
     #features ul.lista-invitados li {
       padding: 5px;
+    }
+    #intro img {
+      width: 10%;
     }
   }
   @media (max-width: 320px) {
