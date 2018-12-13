@@ -12,6 +12,16 @@ if('serviceWorker' in navigator){
   console.log('NO PUEDES usar los serviceWorker en tu navegador');
 }
 
+if( window.Notification && Notification.permission !== 'denied' ) {
+  Notification.requestPermission(status => {
+    console.log(status)
+    let n = new Notification('Título', {
+      body: 'Soy una notificación :)',
+      icon: './img/favicon-192.png'
+    })
+  })
+}
+
 jQuery(document).ready(function($) {
 
   // Header fixed and Back to top button
