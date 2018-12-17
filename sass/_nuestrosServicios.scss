@@ -205,6 +205,7 @@ div.invitado:hover p {
 #portfolio .portfolio-item {
   position: relative; 
   overflow: hidden;
+  margin-top: 20px;
 }
 
 #portfolio .portfolio-item figure {
@@ -271,7 +272,7 @@ div.invitado:hover p {
 #portfolio .portfolio-item .portfolio-info {
   background: #fff;
   text-align: center;
-  padding: 5px;
+  padding: 10px;
   height: 170px;
   border-radius: 0 0 3px 3px;
 }
@@ -295,7 +296,7 @@ div.invitado:hover p {
 #portfolio .portfolio-item .portfolio-info p {
   padding: 0px;
   margin: 0;
-  color: #000;
+  color: rgb(3, 36, 70);
   font-weight: 100;
   font-style: normal;
   font-size: 16px;
