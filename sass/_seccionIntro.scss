@@ -33,10 +33,10 @@
     font-weight: bold;
   }
   #intro img {
-    margin: 0px 0px 10px 0;
+    margin: 0px 50px 10px 0;
     padding: 15px;
     line-height: 56px;
-    width: 50px;
+    width: 25%;
     float: left;
   }
   
@@ -123,6 +123,7 @@
       margin: 50px 40px 10px 0;
       padding: 0;
       line-height: 56px;
+      width: 25%;
       float: left;
     }
     #intro .intro-text .slogan {
@@ -131,7 +132,7 @@
   }
   @media (max-width: 767px) {
     #intro img {
-      margin: 0px 0 10px 0;
+      margin: 50px 0 10px 0;
     }
     #intro {
       width: 100%;
