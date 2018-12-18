@@ -1,7 +1,7 @@
 /* Nuestros Servicios
   --------------------------------*/
   #features {
-    background: eff5f5;
+    background-image: radial-gradient(circle, white, #08908a);
     padding: 20px 0 0 0;
     overflow: hidden;
   }
@@ -13,7 +13,7 @@
   
   @media (min-width: 769px) {
     #features .features-img {
-      padding-top: 120px;
+      padding-top: 120px; 
       margin-top: -200px;
     }
   }
@@ -270,7 +270,7 @@ div.invitado:hover p {
 }
 
 #portfolio .portfolio-item .portfolio-info {
-  background: #fff;
+  background: rgb(230, 238, 201);
   text-align: center;
   padding: 10px;
   height: 170px;
