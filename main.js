@@ -15,8 +15,8 @@ if('serviceWorker' in navigator){
 if( window.Notification && Notification.permission !== 'denied' ) {
   Notification.requestPermission(status => {
     console.log(status)
-    let n = new Notification('Título', {
-      body: 'Soy una notificación :)',
+    let n = new Notification('InfoMed Tucumán', {
+      body: 'Te damos la bienvenida a nuestra web, esperamos te sea de utilidad.',
       icon: './img/favicon-192.png'
     })
   })
