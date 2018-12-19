@@ -707,9 +707,6 @@ div.invitado:hover p {
   font-size: 1.2em;
   text-align: center; }
 
-@media only screen and (min-width: 1280px) {
-  #features {
-    padding: 0; } }
 /* Nuestros Servicios Avanzados
   --------------------------------*/
 #advanced-features {
@@ -923,9 +920,6 @@ p.copyright {
   margin: 20px 0 0 0;
   text-align: center; }
 
-@media (max-width: 320px) {
-  #footer .footer-links a {
-    padding-left: 5px; } }
 /*--------------------------------------------------------------
   # Politicas Privacidad
   --------------------------------------------------------------*/
@@ -1326,33 +1320,9 @@ p.numero {
 /*--------------------------------------------------------------
 # Media Querys
 --------------------------------------------------------------*/
-@media (max-width: 1280px) {
-  #portfolio {
-    padding: 0px 0; }
-
-  #main {
-    height: 1900px; }
-
-  #portfolio .portfolio-item .portfolio-info {
-    height: 200px; }
-
-  #portfolio #portfolio-flters li {
-    margin: 10px 10px 0 0; } }
 @media (max-width: 1199px) {
   #portfolio .portfolio-item .portfolio-info {
-    height: 210px; }
-
-  #features {
-    padding: 0; }
-
-  #portfolio #portfolio-flters li {
-    margin: 5px 5px 5px 0; }
-
-  #portfolio .portfolio-item figure {
-    height: 195px; }
-
-  #main {
-    height: 1800px; } }
+    height: 210px; } }
 @media (max-width: 991px) {
   #intro img {
     margin: 60px 40px 10px 0; }
@@ -1362,13 +1332,7 @@ p.numero {
     height: 1890px; }
 
   #main {
-    height: 2500px; }
-
-  #portfolio .portfolio-item .portfolio-info {
-    height: 190px; }
-
-  #main {
-    height: 2250px; } }
+    height: 2500px; } }
 @media (max-width: 767px) {
   #intro img {
     margin: 70px 40px 10px 0; }
@@ -1407,28 +1371,13 @@ p.numero {
     height: 150px; }
 
   #main {
-    height: 3800px; }
-
-  #intro .intro-text .slogan {
-    line-height: 30px; }
-
-  #intro {
-    height: 20vh; }
-
-  #intro img {
-    margin: 40px 40px 10px 0; }
-
-  #intro .intro-text .slogan {
-    margin-top: 40px; } }
+    height: 3800px; } }
 @media (max-width: 320px) {
-  #intro {
-    height: 30vh; }
-
   #intro img {
     margin: 40px 40px 10px 0; }
 
   #portfolio #portfolio-flters li {
-    margin: 2px 0px; }
+    margin: 2px 2px; }
 
   #portfolio .portfolio-item figure {
     height: 190px; }
@@ -1442,21 +1391,6 @@ p.numero {
   .container {
     width: 95%;
     padding-right: 10px;
-    padding-left: 10px; }
+    padding-left: 10px; } }
 
-  #portfolio #portfolio-flters li {
-    padding: 10px 10px; }
-
-  .section-header .section-divider {
-    height: 0px; }
-
-  #portfolio .portfolio-item .portfolio-info p {
-    font-size: 15px; }
-
-  #portfolio .portfolio-item .portfolio-info {
-    height: 180px; }
-
-  #main {
-    height: 3600px; } }
-
-/*# sourceMappingURL=estilos.css.map */
+/*# sourceMappingURL=estilos,css.map */
