@@ -1347,26 +1347,16 @@ p.numero {
     margin: 5px 5px 5px 0; }
 
   #portfolio .portfolio-item figure {
-    height: 195px; }
-
-  #main {
-    height: 1800px; } }
+    height: 195px; } }
 @media (max-width: 991px) {
   #intro img {
     margin: 60px 40px 10px 0; }
 
   #portfolio {
-    padding: 0;
-    height: 1890px; }
-
-  #main {
-    height: 2500px; }
+    padding: 0; }
 
   #portfolio .portfolio-item .portfolio-info {
-    height: 190px; }
-
-  #main {
-    height: 2250px; } }
+    height: 190px; } }
 @media (max-width: 767px) {
   #intro img {
     margin: 70px 40px 10px 0; }
@@ -1387,10 +1377,7 @@ p.numero {
     height: 30vh; }
 
   #portfolio .portfolio-item figure {
-    height: 232px; }
-
-  #main {
-    height: 2390px; } }
+    height: 232px; } }
 @media (max-width: 575px) {
   #intro .intro-text .slogan {
     font-size: 18px; }
@@ -1403,9 +1390,6 @@ p.numero {
 
   #portfolio .portfolio-item .portfolio-info {
     height: 150px; }
-
-  #main {
-    height: 3800px; }
 
   #intro .intro-text .slogan {
     line-height: 30px; }
@@ -1452,12 +1436,9 @@ p.numero {
     font-size: 15px; }
 
   #portfolio .portfolio-item .portfolio-info {
-    height: 180px; }
-
-  #main {
-    height: 3600px; } }
+    height: 180px; } }
 /*==========================
-    Especialidades
+    Alergia
 ============================*/
 #alergia {
   padding: 60px 0; }
@@ -1642,26 +1623,16 @@ p.numero {
     margin: 5px 5px 5px 0; }
 
   #portfolio .portfolio-item figure {
-    height: 195px; }
-
-  #main {
-    height: 1800px; } }
+    height: 195px; } }
 @media (max-width: 991px) {
   #intro img {
     margin: 60px 40px 10px 0; }
 
   #portfolio {
-    padding: 0;
-    height: 1890px; }
-
-  #main {
-    height: 2500px; }
+    padding: 0; }
 
   #portfolio .portfolio-item .portfolio-info {
-    height: 190px; }
-
-  #main {
-    height: 2250px; } }
+    height: 190px; } }
 @media (max-width: 767px) {
   #intro img {
     margin: 70px 40px 10px 0; }
@@ -1682,10 +1653,7 @@ p.numero {
     height: 30vh; }
 
   #portfolio .portfolio-item figure {
-    height: 232px; }
-
-  #main {
-    height: 2390px; } }
+    height: 232px; } }
 @media (max-width: 575px) {
   #intro .intro-text .slogan {
     font-size: 18px; }
@@ -1698,9 +1666,6 @@ p.numero {
 
   #portfolio .portfolio-item .portfolio-info {
     height: 150px; }
-
-  #main {
-    height: 3800px; }
 
   #intro .intro-text .slogan {
     line-height: 30px; }
@@ -1747,9 +1712,6 @@ p.numero {
     font-size: 15px; }
 
   #portfolio .portfolio-item .portfolio-info {
-    height: 180px; }
-
-  #main {
-    height: 3600px; } }
+    height: 180px; } }
 
 /*# sourceMappingURL=estilos.css.map */

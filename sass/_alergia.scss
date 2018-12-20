@@ -1,5 +1,5 @@
 /*==========================
-    Especialidades
+    Alergia
 ============================*/
 #alergia {
     padding: 60px 0;
@@ -215,9 +215,9 @@
     #portfolio .portfolio-item figure {
       height: 195px;
     }
-    #main {
-    height: 1800px;
-    }
+    // #main {
+    // height: 1800px;
+    // }
   }
   @media (max-width: 991px) {
     #intro img {
@@ -225,17 +225,17 @@
     }
     #portfolio {
     padding: 0;
-    height: 1890px;
+    // height: 1890px;
     }
-    #main {
-        height: 2500px
-    }
+    // #main {
+    //     height: 2500px
+    // }
     #portfolio .portfolio-item .portfolio-info {
     height: 190px;
     }
-    #main {
-    height: 2250px;
-    }
+    // #main {
+    // height: 2250px;
+    // }
   }
   @media (max-width: 767px) {
     #intro img {
@@ -259,9 +259,9 @@
     #portfolio .portfolio-item figure {
     height: 232px;
     }
-    #main {
-    height: 2390px;
-    }
+    // #main {
+    // height: 2390px;
+    // }
   }
   @media (max-width: 575px) {
     #intro .intro-text .slogan {
@@ -276,9 +276,9 @@
     #portfolio .portfolio-item .portfolio-info {
         height: 150px;
     }
-    #main {
-        height: 3800px;
-    }
+    // #main {
+    //     height: 3800px;
+    // }
     #intro .intro-text .slogan {
     line-height: 30px;
     }
@@ -328,7 +328,7 @@
     #portfolio .portfolio-item .portfolio-info {
     height: 180px;
     }
-    #main {
-    height: 3600px;
-    }
+    // #main {
+    // height: 3600px;
+    // }
 }
