@@ -900,7 +900,8 @@ div.invitado:hover p {
   box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
   padding: 30px 0;
   color: white;
-  font-size: 14px; }
+  font-size: 14px;
+  margin-top: 50px; }
 
 #footer .credits {
   font-size: 13px;
@@ -1330,9 +1331,6 @@ p.numero {
   #portfolio {
     padding: 0px 0; }
 
-  #main {
-    height: 1900px; }
-
   #portfolio .portfolio-item .portfolio-info {
     height: 200px; }
 
@@ -1516,6 +1514,9 @@ p.numero {
 #alergia .alergia-wrap .descipcion p {
   margin-bottom: 5px; }
 
+#alergia .alergia-wrap .descipcion p span {
+  color: #032446; }
+
 #alergia .alergia-wrap:hover {
   box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.16); }
 
@@ -1618,9 +1619,6 @@ p.numero {
 @media (max-width: 1280px) {
   #portfolio {
     padding: 0px 0; }
-
-  #main {
-    height: 1900px; }
 
   #portfolio .portfolio-item .portfolio-info {
     height: 200px; }

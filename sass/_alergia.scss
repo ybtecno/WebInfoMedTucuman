@@ -61,6 +61,9 @@
   #alergia .alergia-wrap .descipcion p {
     margin-bottom: 5px;
   }
+  #alergia .alergia-wrap .descipcion p span {
+    color: #032446;
+  }
   
   #alergia .alergia-wrap:hover {
     box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.16);
@@ -182,9 +185,9 @@
     #portfolio {
       padding: 0px 0;
     }
-    #main {
-      height: 1900px
-    }
+    // #main {
+    //   height: 1900px
+    // }
     #portfolio .portfolio-item .portfolio-info {
       height: 200px;
     }
