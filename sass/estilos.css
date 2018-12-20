@@ -1441,13 +1441,17 @@ p.numero {
     Alergia
 ============================*/
 #alergia {
-  padding: 60px 0; }
+  padding: 20px 0; }
 
 #alergia #alergia-flters {
   padding: 0;
   margin: 5px 0 35px 0;
   list-style: none;
   text-align: center; }
+
+#alergia .container-fluid .alergia-container {
+  margin: 0;
+  justify-content: center; }
 
 #alergia #alergia-flters li {
   cursor: pointer;
@@ -1475,22 +1479,21 @@ p.numero {
 
 #alergia .alergia-wrap .nombre-especialidad {
   color: #1b726e;
-  margin-top: 30px;
   line-height: 40px;
   text-align: center;
-  font-size: 30px;
-  padding-bottom: 20px;
+  font-size: 25px;
+  padding-bottom: 10px;
   border-bottom: 1px solid #1dc8cd; }
 
 #alergia .alergia-wrap .nombre-dr {
   color: #032446;
   margin-top: 20px;
-  font-size: 25px; }
+  font-size: 22px; }
 
 #alergia .alergia-wrap .descipcion {
   color: #1b726e;
   margin-top: 0;
-  font-size: 22px;
+  font-size: 16px;
   text-align: left;
   padding-top: 20px;
   border-top: 1px solid #1dc8cd; }
@@ -1508,15 +1511,13 @@ p.numero {
   position: relative;
   overflow: hidden;
   margin-top: 20px;
-  /* background: white; */
+  margin: 20px;
   border-radius: 20px;
-  /* border: 3px solid #1b726e; */
-  box-shadow: 0px 0px 20px rgba(66, 217, 228, 0.9); }
+  box-shadow: 0px 0px 10px rgba(66, 217, 228, 0.9); }
 
 #alergia .alergia-item figure {
   background: white;
   overflow: hidden;
-  height: 190px;
   position: relative;
   border-radius: 20px;
   margin: 10px 0px 10px 0px;
@@ -1599,6 +1600,48 @@ p.numero {
   font-size: 16px;
   text-transform: none;
   text-align: justify; }
+
+#alergia .container-fluid .alergia-container .alergia-item .container .modal {
+  top: 75px; }
+
+#alergia .container-fluid .alergia-container .alergia-item .container .modal .modal-dialog {
+  margin-top: 160px; }
+
+#alergia .container-fluid .alergia-container .alergia-item .container .btn-masinfo {
+  color: #1b726e;
+  border: 2px solid #1b726e;
+  background: transparent; }
+
+#alergia .container-fluid .alergia-container .alergia-item .container .btn-masinfo:hover {
+  color: white;
+  border: 2px solid #1b726e;
+  background: #1b726e; }
+
+#alergia .container-fluid .alergia-container .alergia-item .container .modal .modal-dialog .modal-content .modal-header {
+  border-bottom: 1px solid #1dc8cd; }
+
+#alergia .container-fluid .alergia-container .alergia-item .container .modal .modal-dialog .modal-content .modal-header .modal-title {
+  color: #032446;
+  font-size: 30px; }
+
+#alergia .container-fluid .alergia-container .alergia-item .container .modal .modal-dialog .modal-content .modal-body {
+  width: 75%; }
+
+#alergia .container-fluid .alergia-container .alergia-item .container .modal .modal-dialog .modal-content .modal-body .container-fluid .row p span {
+  color: #032446;
+  font-size: 25px; }
+
+#alergia .container-fluid .alergia-container .alergia-item .container .modal .modal-dialog .modal-content .modal-body .container-fluid .row p {
+  color: #1b726e;
+  font-size: 25px; }
+
+#alergia .container-fluid .alergia-container .alergia-item .container .modal .modal-dialog .modal-content .modal-footer {
+  border-top: 1px solid #1dc8cd; }
+
+#alergia .container-fluid .alergia-container .alergia-item .container .modal .modal-dialog .modal-content .modal-footer .btn-default {
+  color: white;
+  border: 2px solid #1b726e;
+  background: #1b726e; }
 
 /*--------------------------------------------------------------
 # Media Querys
